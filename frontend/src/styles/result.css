@@ -1,0 +1,31 @@
+/* src/styles/result.css */
+.result {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #ecf0f1;
+    border-left: 8px solid #3498db;
+    animation: fadeIn 1s ease-out;
+}
+
+.result h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.result p {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

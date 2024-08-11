@@ -1,0 +1,32 @@
+/* src/styles/uploadVideo.css */
+input[type="file"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin-top: 10px;
+    border: 2px dashed #3498db;
+    border-radius: 8px;
+    background-color: #ecf0f1;
+    cursor: pointer;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+input[type="file"]:hover {
+    background-color: #e3e9f0;
+}
+
+button {
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+    margin-top: 15px;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
