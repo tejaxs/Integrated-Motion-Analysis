@@ -77,4 +77,4 @@ License
 This project is licensed under the MIT License.
 
 Contact
-For any inquiries or issues, please contact tejaxspatil@gmail.com
+For any inquiries or issues, please contact tejaxspatil@gmail.com, ishpatel4443@gmail.com
